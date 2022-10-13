@@ -14,6 +14,10 @@ public class Test {
         System.out.println("Heure actuelle");
         System.out.println(LocalTime.now());
 
+        LocalDate date1 = LocalDate.now();
+        date1 = date1.minusMonths(1);
+        System.out.println("Il y a 1 mois, nous étions le " + date1);
+
         System.out.println("Programme terminé");
     }
 }
